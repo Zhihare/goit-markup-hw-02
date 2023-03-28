@@ -7,6 +7,7 @@ body {
 
 /*styles of links and buttons on focus and hover*/
 button {
+    color: #FFFFFF;
     background: #4D5AE5;
     cursor: pointer;
 }
@@ -14,6 +15,15 @@ button {
 button:hover,
 button:focus {
     background: #404BBF;
+}
+
+a {
+    color: #2E2F42;
+}
+
+.header-adress {
+    font-size: 16px;
+    color: #434455;
 }
 
 a:hover,
@@ -34,7 +44,49 @@ a:hover,
     background-color: #2E2F42;
 }
 
-/*line-height for text*/
-p {
-    line-height: 1.5;
+
+/*text size, color*/
+.head-link {
+    color: #2E2F42;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.head-link span {
+    color: #4D5AE5;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.footer-link {
+    color: #F4F4FD;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.footer-link span {
+    color: #4D5AE5;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+
+.main-header {
+    font-size: 56px;
+    color: #FFFF;
+}
+
+h3 {
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+h2 {
+    font-size: 36px;
+    color: #2E2F42;
+}
+
+.fotter-paragraph {
+    font-size: 16px;
+    color: #F4F4FD;
 }
