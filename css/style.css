@@ -46,15 +46,12 @@ body {
     color: #FFFFFF;
 }
 
-
-
-a:hover,
-:focus {
-    color: #404BBF;
+.header-line:hover,
+.header-line:focus {
+    color: #404bbf;
 }
-
-.header-list:hover,
-.header-list:focus {
+.adress-link:hover,
+.adress-link:focus{
     color: #404bbf;
 }
 
