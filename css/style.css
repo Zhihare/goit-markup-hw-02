@@ -4,9 +4,11 @@ body {
     font-size: 16px;
     background-color: #FFFFFF;
 }
-:root{
+
+:root {
     --color: #434455;
-    --batton-color: #4d5ae5; 
+    --background-color: #F4F4FD;
+    --color-batton:  #4d5ae5;
 }
 
 /*styles of links and buttons on focus and hover*/
@@ -20,9 +22,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.portfolio-button{
-    color: #4d5ae5;
-    background-color: var(--batton-color);
+
+.portfolio-button {
+    color: var(--color-batton);
+    background-color: var(--background-color);
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -31,15 +34,17 @@ body {
     letter-spacing: 0.04em;
 }
 
-.button .portfolio-button:hover,
-.button .portfolio-button:focus {
-    background: #404BBF;
+.button:hover,
+.button:focus{
+    background-color: #404BBF;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: #404BBF;
     color: #FFFFFF;
 }
 
-a {
-    color: #2E2F42;
-}
 
 .header-adress {
     font-size: 16px;
@@ -117,13 +122,14 @@ a:hover,
 
 .list {
     list-style: none;
-    
+
 }
 
-.span-logo{
-    color:#2e2f42;
+.span-logo {
+    color: #2e2f42;
     text-decoration: none;
 }
+
 .header-line {
     font-weight: 500;
     font-size: 16px;
@@ -141,7 +147,7 @@ a:hover,
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color);
 }
 
 .link {
