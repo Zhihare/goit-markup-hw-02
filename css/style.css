@@ -5,11 +5,12 @@ body {
     background-color: #FFFFFF;
 }
 :root{
-    --brand-color: #3f51b5; 
+    --color: #434455;
+    --batton-color: #4d5ae5; 
 }
 
 /*styles of links and buttons on focus and hover*/
-button {
+.button {
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -19,9 +20,19 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
+.portfolio-button{
+    color: #4d5ae5;
+    background-color: var(--batton-color);
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
 
-button:hover,
-button:focus {
+.button .portfolio-button:hover,
+.button .portfolio-button:focus {
     background: #404BBF;
     color: #FFFFFF;
 }
@@ -118,7 +129,7 @@ a:hover,
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--color);
     list-style: none;
 }
 
