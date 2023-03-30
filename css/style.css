@@ -15,7 +15,7 @@ body {
     --batton-text-cl: #FFFFFF;
     --batton-active: #404BBF; 
     --backgr-main-sect: #2E2F42;
-    --backgr-team: #FFFFFF;
+    --backgr-team: #f4f4fd;
     --backgr-footer: #2E2F42;
     --span-cl: #2e2f42;
     --span-footer-cl: #f4f4fd;
@@ -204,4 +204,7 @@ body {
     text-transform: capitalize;
     color: var(--color);
 
+}
+.team-list{
+    background-color: var(--background-color);
 }
