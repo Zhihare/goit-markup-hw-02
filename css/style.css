@@ -24,7 +24,7 @@ body {
 
 /*styles of links and buttons on focus and hover*/
 .button {
-    color: var(--batton-text-cl);
+    color: var(--background-color);
     background-color: var(--color-batton);
     cursor: pointer;
     font-family: "Roboto", sans-serif;
